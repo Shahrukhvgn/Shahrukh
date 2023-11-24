@@ -45,7 +45,12 @@ h1{
    margin-left: 33px;
    font-size: 50px;
 }
-h4{
+.m1 h1{
+  margin-top: 180px;
+  margin-left: 33px;
+  font-size: 50px;
+}
+p{
   margin-left: 33px;
   color: #aaa;
 }
@@ -153,3 +158,335 @@ hr{
     margin-top: 200px;
     margin-right: 10px;
 }
+h2{
+   color: black;
+}
+.hed{
+     
+}
+.heading{
+  position: relative;
+}
+
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease-in;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  a:hover {
+    background-color: black;
+    color: wheat;
+  }
+  .wrapper{
+           display: flex;
+           background-color: #F7F7F7;
+  }
+  span{
+      font-family: 'Playfair Display', sans-serif;
+      color: #ac1313;
+      font-size: 68px;
+      line-height: 68px;
+      font-weight: 400;
+  }
+  .home{
+    color: darkred;
+  }
+  .img img{
+       width: 50px;
+       height: 50px;
+  }
+  h1{
+     margin-top: 180px;
+     margin-left: 33px;
+     font-size: 50px;
+  }
+  .m1 h1{
+    margin-top: 180px;
+    margin-left: 33px;
+    font-size: 50px;
+  }
+  p{
+    margin-left: 33px;
+    color: #aaa;
+  }
+  .mainimg img{
+    width: 800px;
+    height: 450px;
+         background-size: cover;
+         background-position: 50% 50%;
+         background-repeat: no-repeat;
+         margin-top: 130px;
+  }
+  .btn{
+    background-color: rgb(179, 29, 29);
+    color: wheat;
+    height: 60px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .pro h2{
+      text-align: center;
+      margin-top: 50px;
+      color: rgb(236, 56, 56);
+  }
+  .pro h1{
+    text-align: center;
+         margin-top: 40px;
+  }
+  .categary{
+          margin-top: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+  }
+  .wipper img{
+    width: 100px;
+    height: 100px;
+    border: 10px double wheat;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 100px;
+  }
+  .steal img{
+    width: 100px;
+    height: 100px;
+    border: 10px double wheat;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .kitchen img{
+    width: 100px;
+    height: 100px;
+    border: 10px double wheat;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .homeware img{
+    width: 100px;
+    height: 100px;
+    border: 10px double wheat;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .crockery img{
+    width: 100px;
+    height: 100px;
+    border: 10px double wheat;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 100px;
+  }
+  .abtpdt2{
+    margin-left: 100px;
+    margin-right: 100px;
+   display: flex;
+   gap: 30px;
+   margin-top: 40px;
+  }
+  hr{
+     margin-top: 100px;
+  }
+  .surahi img{
+    height: 509px;
+    width: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    margin-left: 147px;
+  }
+  .surahi{
+    background-color: #AAA;
+    height: 189px;
+    width: 545px;
+    margin-left: 100px;
+    margin-top: 193px;
+  }
+  .suh{
+    display: flex;
+    gap: 75px;
+    justify-content: space-between;
+  }
+  .gs{
+      margin-top: 200px;
+      margin-right: 10px;
+  }
+  h2{
+     color: black;
+  }
+  
+  .heading{
+    position: relative;
+  }
+  /* =================Media Query==================== */
+  @media (max-width:320px) {
+    .nav2 nav {
+      display: flex;
+      background-color: wheat;
+      padding: 5px 20px;
+      color: wheat;
+      height: 150px;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+    }
+     .heading{
+      position: absolute;
+      font-size: 18px;
+      margin-left: 6px;
+      margin-top: 110px;
+  }
+     .img img{
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+            margin-top: -35px;
+}
+      h1{
+        margin-top: 180px;
+        margin-left: 33px;
+        font-size: 16px;
+      }
+     a{
+      margin: o -1px;
+      padding: 10px;
+     }
+     h2{
+       margin-top: -25px;
+       margin-left: 18px;
+     }
+     p{
+      margin-left: 30px;
+      margin-top: 305px;
+     }
+     .mainimg img{
+      width: 288px;
+      height: 250px;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      margin-top: 323px;
+      margin-left: -297px;
+     }
+
+     .btn{
+      background-color: rgb(179, 29, 29);
+      color: wheat;
+      height: 60px;
+      width: 200px;
+      margin-left: 70px;
+      margin-top: 15px;
+     }
+     .pro h1 {
+      text-align: center;
+      margin-top: 34px;
+      margin-left: 0px;
+     }
+     .categary {
+      margin-top: 45px;
+      display: block;
+     }
+     .wipper img{
+      width: 85px;
+      height: 85px;
+      border: 10px double wheat;
+      border-radius: 50%;
+      background-color: black;
+      margin-left: 39px;
+    }
+    .wipper{
+           width: 40%;
+    }
+    .steal{
+      width: 40%;
+      margin-top: -21px;
+    }
+    .steal img{
+      width: 85px;
+      height: 85px;
+      border: 10px double wheat;
+      border-radius: 50%;
+      background-color: black;
+      margin-left: 175px;
+      margin-top: -90px;
+    }
+    .kitchen{
+      width: 40%;
+    }
+    .kitchen img {
+      width: 85px;
+      height: 85px;
+      margin-left: 39px;
+      margin-top: 15px;
+    }
+    .homeware{
+      width: 40%;
+      margin-top: -108px;
+      margin-left: 175px;
+    }
+    .homeware img {
+      width: 85px;
+      height: 85px;
+      border: 10px double wheat;
+      border-radius: 50%;
+      background-color: black;
+    }
+    .crockery{
+             width: 40%;
+    }
+    .crockery img {
+      width: 85px;
+      height: 85px;
+      border: 10px double wheat;
+      border-radius: 50%;
+      background-color: black;
+      margin-left: 39px;
+      margin-top: 15px;
+  }
+  .adtpdt h2 {
+    margin-top: 4px;
+    margin-left: -79px;
+    font-size: 16px;
+   }
+   .adtpdt p {
+    margin-left: -72px;
+    margin-top: 34px;
+   } 
+   .adtpdt2 h2{
+    margin-top: 4px;
+    margin-left: 27px;
+    font-size: 16px;
+   }
+   p{
+    margin-left: 30px;
+    margin-top: 33px;
+   }
+   .surahi img {
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    margin-left: -69px;
+    }
+    h2 {
+      margin-top: 220px;
+      margin-left: -318px;
+  }
+  .pro h2 {
+    margin-top: 52px;
+    margin-left: 0;
+}
+  }
+  
+

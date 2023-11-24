@@ -5,9 +5,9 @@ const Home = () => {
     <div>
     <div className='wrapper'>
       <div>  
-        <h2>Bharat</h2>
-          <h1> Unique Porcelain <span different-font>&</span><br></br> Stone Collection</h1>
-          <h4>Unique & modern pottery made by our master in porcelain & stones</h4>
+      <h1 className='m1'>Bharat</h1>
+          <h2> Unique Porcelain <span different-font>&</span><br></br> Stone Collection</h2>
+          <p>Unique & modern pottery made by our master in porcelain & stones</p>
           <button className='btn'>Shop Collection</button>
       </div>
           <div className='mainimg'>
@@ -43,7 +43,7 @@ const Home = () => {
           <p>lorem100 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.
           </p>
            </div>
-          <div>
+          <div className='adtpdt2'>
           <h2>We Provide Premium<br></br>Pottery Produts</h2>
           <p>lorem100 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.
           </p>
